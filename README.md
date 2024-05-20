@@ -1,6 +1,12 @@
 # healthchart-inpatient-asthma
 Inpatient instance of HealthChart visualization application.
 
+- run commands
+    - npm run dev (in one terminal)
+    - in another terminal
+        - cd dist
+        - http-server -S -C cert.pem
+
 - in conf folder in build.js replace
     - clientId of development and production with your clientId
     - logging with your log url (where you store your logs)
